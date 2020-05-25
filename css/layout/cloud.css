@@ -1,0 +1,22 @@
+.cloud {
+  width: 600px;
+  height: 500px;
+
+  border-radius: 100%;
+  position: absolute;
+}
+
+.cloud[color='primary'] {
+  background: var(--primary-color);
+  z-index: 10;
+}
+
+.cloud[color='secondary'] {
+  background: var(--secondary-color);
+  z-index: 1;
+}
+
+.cloud[color='third'] {
+  background: var(--third-color);
+  z-index: -1;
+}

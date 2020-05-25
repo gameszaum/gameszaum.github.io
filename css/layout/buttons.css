@@ -1,0 +1,5 @@
+.btn-cta {
+  background: var(--primary-color);
+  color: var(--text-especial-color);
+  border-radius: var(--radius);
+}

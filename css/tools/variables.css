@@ -1,0 +1,28 @@
+:root {
+  font-size: 16px;
+  /*vars*/
+
+  /* colors */
+  --primary-color: #3f24ff;
+  --secondary-color: #2b28ff;
+  --third-color: #2336ff;
+
+  --text-primary-color: #000;
+  --text-secondary-color: #9e9e9e;
+  --text-especial-color: #fcfcfc;
+
+  /* radius */
+
+  --radius: 3px;
+  --big-radius: 5px;
+
+  /* font */
+
+  --biggest-size: 3.5rem;
+
+  --title-size: 2.5rem;
+  --sub-size: 1.6rem;
+
+  --text-size: 1.1rem;
+  --text-big-size: 1.3rem;
+}

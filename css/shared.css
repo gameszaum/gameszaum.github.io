@@ -1,0 +1,12 @@
+@import 'tools/reset.css';
+@import 'tools/variables.css';
+
+@import 'layout/buttons.css';
+@import 'layout/cloud.css';
+
+@import 'layout/animations/fadeIn.css';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}

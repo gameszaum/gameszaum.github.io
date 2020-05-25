@@ -1,0 +1,98 @@
+@import 'shared.css';
+
+.div_menu {
+  padding: 1rem;
+  height: 70px;
+}
+
+.div_menu > .menu {
+  width: 35%;
+
+  display: flex;
+  justify-content: space-around;
+
+  float: right;
+
+  animation: fadeIn 1s ease-in-out 0.5s backwards;
+}
+
+.item_menu > a {
+  color: #000;
+}
+
+.item_menu:last-child > a {
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+
+  background: var(--primary-color);
+  color: var(--text-especial-color);
+  border-radius: var(--radius);
+}
+
+.div_apresentacao {
+  text-align: center;
+  margin-top: 1.5rem;
+
+  animation: fadeInY 1s ease-in-out 1.4s backwards;
+}
+
+.div_main .nome {
+  font-size: var(--biggest-size);
+  font-weight: bold;
+}
+
+.div_main .funcao {
+  font-size: var(--text-size);
+  color: var(--text-secondary-color);
+}
+
+.div_clouds {
+  position: absolute;
+  width: 300px;
+
+  right: 0;
+  animation: fadeIn 1s ease-in-out 1.4s backwards;
+}
+
+.div_clouds > .cloud[color='secondary'] {
+  right: 30px;
+  top: 60px;
+}
+
+.div_clouds > .cloud[color='third'] {
+  top: 120px;
+  right: 220px;
+}
+
+.div_icons_menu {
+  position: absolute;
+  z-index: -1;
+  height: 80%;
+
+  animation: fadeInY 1s ease-in-out 1s backwards;
+}
+
+.div_icons_menu > .icons {
+  width: 70px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.item_icon {
+  margin: 1rem;
+}
+
+.item_icon > a {
+  color: var(--text-secondary-color);
+}
+
+.item_icon > a:hover,
+.item_icon > a:active {
+  color: var(--primary-color);
+  transition: 1s all;
+}
