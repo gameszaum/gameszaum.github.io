@@ -1,2 +1,4 @@
-# PortfolioJoaoVila-a
-Portfólio do João Vilaça
+# PortfolioJoaoVilaça
+
+Esta é a segunda versão do portfolio do joão vilaça (gameszaum)
+
