@@ -36,7 +36,9 @@
 
 .div_apresentacao {
   text-align: center;
-  margin-top: 1.5rem;
+  margin: 1.5rem auto;
+
+  width: 25%;
 
   animation: fadeInY 1s ease-in-out 1.4s backwards;
 }
@@ -44,6 +46,8 @@
 .div_main .nome {
   font-size: var(--biggest-size);
   font-weight: bold;
+
+  width: 100%;
 }
 
 .div_main .funcao {
@@ -71,7 +75,6 @@
 
 .div_icons_menu {
   position: absolute;
-  z-index: -1;
   height: 80%;
 
   animation: fadeInY 1s ease-in-out 1s backwards;
@@ -90,10 +93,14 @@
 
 .item_icon {
   margin: 1rem;
+  cursor: pointer;
 }
 
 .item_icon > a {
+  display: inline-block;
+
   color: var(--text-secondary-color);
+  width: 100%;
 }
 
 .item_icon > a:hover,
