@@ -1,0 +1,55 @@
+.about_me-section {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  z-index: 10;
+
+  background: #fcfcfc;
+
+  padding: 5px;
+
+}
+
+.about-container {
+  width: 100%;
+  height: 100%;
+
+  background: #fcfcfc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.presentation-image {
+  width: 50%;
+  height: 100%;
+
+  margin-left: 1rem;
+}
+
+.presentation-image > img {
+  width: 550px;
+  height: 450px;
+}
+
+.presentation {
+  width: 50%;
+  height: 80%;
+}
+
+.presentation .title {
+  color: #222;
+  font-weight: 600;
+  font-size: var(--sub-size);
+
+  margin-bottom: 5px;
+}
+
+.presentation .paragraph {
+  width: 600px;
+
+  font-size: var(--text-size);
+  color: var(--text-secondary-color);
+  line-height: calc(var(--text-size) * 1.5);
+}

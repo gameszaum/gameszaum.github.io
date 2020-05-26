@@ -1,0 +1,9 @@
+.div_title {
+  margin: 2rem 0;
+}
+
+.div_title > .title {
+  text-align: center;
+  font-size: var(--title-size);
+  font-weight: bold;
+}

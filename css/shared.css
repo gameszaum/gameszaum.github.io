@@ -1,9 +1,15 @@
+/*tools*/
 @import 'tools/reset.css';
 @import 'tools/variables.css';
 
+/*pre-defined layers*/
+
 @import 'layout/buttons.css';
 @import 'layout/cloud.css';
-
+@import 'layout/menu-container.css';
+@import 'layout/title.css';
+@import 'layout/separator.css';
+/*animations*/
 @import 'layout/animations/fadeIn.css';
 
 body {

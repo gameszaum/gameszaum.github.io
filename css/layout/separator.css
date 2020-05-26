@@ -1,0 +1,9 @@
+.separator {
+  width: 800px;
+  height: 2px;
+  background: #ddd;
+
+  margin: 8rem auto;
+  position: relative;
+  z-index: 100;
+}
