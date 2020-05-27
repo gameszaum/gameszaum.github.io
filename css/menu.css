@@ -23,7 +23,7 @@ header .div_menu {
 
   float: right;
 
-  /* animation: fadeIn 1s ease-in-out 0.5s backwards; */
+  animation: fadeIn 1s 0.5s backwards;
 }
 
 .item_menu > a {
@@ -45,7 +45,7 @@ header .div_menu {
 
   width: 25%;
 
-  /* animation: fadeInY 1s ease-in-out 1.4s backwards; */
+  animation: fadeInY 1s 1.4s backwards;
 }
 
 .div_main .nome {
@@ -65,7 +65,7 @@ header .div_menu {
   width: 300px;
 
   right: 0;
-  /* animation: fadeIn 1s ease-in-out 1.4s backwards; */
+  animation: fadeIn 1s 1.4s backwards;
 }
 
 .div_clouds > .cloud[color='secondary'] {
@@ -81,7 +81,7 @@ header .div_menu {
   position: absolute;
   height: 80%;
 
-  /* animation: fadeInY 1s ease-in-out 1s backwards; */
+  animation: fadeInY 1s 1s backwards;
 }
 
 .div_icons_menu > .icons {

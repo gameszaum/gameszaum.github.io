@@ -5,10 +5,8 @@
     <title>Vilaça Landing Page</title>
 
     <link rel="stylesheet" href="css/menu.css" />
-    <link rel="stylesheet" href="css/form.css" />
     <link rel="stylesheet" href="css/feedback.css" />
     <link rel="stylesheet" href="css/about-me.css" />
-    <link rel="stylesheet" href="css/skill.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -19,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
       rel="stylesheet"
     />
+    <link href="css/form.css" rel="stylesheet" />
 
     <script
       src="https://kit.fontawesome.com/1b4f5eacbc.js"
@@ -30,24 +29,27 @@
     <header>
       <div class="div_menu">
         <ul class="menu">
-          <li class="item_menu"><a href="#" class="botao">Início</a></li>
+          <li class="item_menu"><a href="" class="botao">Início</a></li>
+          <li class="item_menu"><a href="" class="botao">Sobre mim</a></li>
           <li class="item_menu">
-            <a href="#about-me" class="botao">Sobre mim</a>
-          </li>
-          <li class="item_menu">
-            <a class="btn-cta" href="#form" id="contrate_me">Me Contrate</a>
+            <a class="btn-cta" href="" id="contrate_me">Me Contrate</a>
           </li>
         </ul>
       </div>
       <div class="div_icons_menu">
         <ul class="icons">
           <li class="item_icon">
-            <a target="_blank" href="https://discord.gameszaum.com">
-              <i class="fab fa-discord"></i>
+            <a target="_blank" href="#">
+              <i class="fab fa-instagram"></i>
             </a>
           </li>
           <li class="item_icon">
-            <a target="_blank" href="http://github.com/gameszaum">
+            <a target="_blank" href="#">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="item_icon">
+            <a target="_blank" href="#">
               <i class="fab fa-github-square"></i>
             </a>
           </li>
@@ -67,7 +69,7 @@
       </div>
     </header>
     <main>
-      <section class="about_me-section" id="about-me">
+      <section class="about_me-section">
         <div class="div_menu">
           <div class="div_title">
             <h2 class="title">
@@ -101,101 +103,50 @@
 
       <div class="separator"></div>
 
-      <section class="skill-section">
-        <div class="div_menu">
-          <div class="div_title">
-            <h2 class="title">
-              Minhas Habilidades
-            </h2>
-          </div>
-
-          <div class="div_skill-container">
-            <ul class="skill-list">
-              <li class="skill-item">
-                <div class="header">
-                  <p class="skill_name">
-                    <span>
-                      <i style="color: orange;" class="fab fa-java"></i>
-                    </span>
-                  </p>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-marker"></div>
-                </div>
-              </li>
-              <li class="skill-item">
-                <div class="header">
-                  <p class="skill_name">
-                    <span>
-                      <i style="color: royalblue;" class="fab fa-css3"></i>
-                    </span>
-                  </p>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-marker"></div>
-                </div>
-              </li>
-              <li class="skill-item">
-                <div class="header">
-                  <p class="skill_name">
-                    <span>
-                      <i style="color: #2ada0b;" class="fab fa-node"></i>
-                    </span>
-                  </p>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-marker"></div>
-                </div>
-              </li>
-              <li class="skill-item">
-                <div class="header">
-                  <p class="skill_name">
-                    <span>
-                      <i
-                        style="color: lightseagreen;"
-                        class="fas fa-database"
-                      ></i>
-                    </span>
-                  </p>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-marker"></div>
-                </div>
-              </li>
-              <li class="skill-item">
-                <div class="header">
-                  <p class="skill_name">
-                    <span>
-                      <i style="color: goldenrod;" class="fab fa-js"></i>
-                    </span>
-                  </p>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-marker"></div>
-                </div>
-              </li>
-              <li class="skill-item">
-                <div class="header">
-                  <p class="skill_name">
-                    <span>
-                      <i style="color: orangered;" class="fab fa-html5"></i>
-                    </span>
-                  </p>
-                </div>
-
-                <div class="progress">
-                  <div class="progress-marker"></div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <div class="div_form">
+        <h1 class="titulo_form">Tem um projeto? Vamos conversar!</h1>
+        <form class="formulario" action="" method="POST">
+          <p class="nome">
+            <input
+              type="text"
+              name="nome"
+              placeholder="Insira seu nome"
+              required="required"
+              class="nometext"
+            />
+          </p>
+          <p class="email">
+            <input
+              type="email"
+              name="email"
+              placeholder="Insira seu email"
+              required="required"
+              class="emailtext"
+            />
+          </p>
+          <p class="assunto">
+            <input
+              type="assunto"
+              name="assunto"
+              placeholder="Insira o assunto"
+              required="required"
+              class="assuntotext"
+            />
+          </p>
+          <p class="mensagem">
+            <textarea
+              name="mensagem"
+              name="mensagem"
+              placeholder="Fale sobre seu projeto"
+              required="required"
+              class="mensagemtext"
+            ></textarea>
+          </p>
+          <p class="enviar">
+            <input type="submit" name="enviar" class="button" />
+          </p>
+        </form>
+      </div>
 
       <div class="separator"></div>
 
@@ -211,14 +162,14 @@
             <div class="explanation">
               <div class="comment-container">
                 <p class="comment">
-                  <span clas="quote">
+                  <span>
                     <i class="fas fa-quote-left"></i>
                   </span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Quibusdam omnis hic et sit ut sequi, neque adipisci ipsum quod
                   sapiente iusto harum, error, rerum assumenda mollitia magnam!
                   Autem, vitae enim?
-                  <span class="quote">
+                  <span>
                     <i class="fas fa-quote-right"></i>
                   </span>
                 </p>
@@ -239,6 +190,5 @@
         </div>
       </section>
     </main>
-    <script src="js/main.js" defer></script>
   </body>
 </html>
