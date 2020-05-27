@@ -12,7 +12,6 @@
 
 /*animations*/
 @import 'layout/animations/fadeIn.css';
-@import 'layout/animations/rotate.css';
 
 body {
   width: 100vw;

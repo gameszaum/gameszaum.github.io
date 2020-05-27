@@ -1,3 +1,9 @@
+const formItems = document.querySelectorAll(
+  'form input:not([type="text"]),form textarea',
+);
+
+formIcons = document.querySelectorAll('form .icon');
+
 const progressBars = document.querySelectorAll('.skill-item .progress-marker');
 const nameItems = document.querySelectorAll('.skill-item .skill_name');
 const SKILL_LIST = [
@@ -41,4 +47,20 @@ nameItems.forEach((name, nameIndex) => {
       name.innerHTML += skill.name;
     }
   });
+});
+
+formItems.forEach((item, itemIndex) => {
+  item.onclick = e => {
+    e.preventDefault();
+
+    formIcons.forEach((icon, iconIndex) => {
+      const iconDisplay = icon.style.display;
+
+      if (itemIndex === iconIndex) {
+        icon.style.display = 'none';
+      } else {
+        icon.style.display = iconDisplay;
+      }
+    });
+  };
 });

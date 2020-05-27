@@ -3,3 +3,9 @@
   color: var(--text-especial-color);
   border-radius: var(--radius);
 }
+
+.btn-cta:hover,
+.btn-cta:active {
+  background-color: rgb(117, 147, 245);
+  transition: 1s all;
+}

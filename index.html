@@ -30,9 +30,9 @@
     <header>
       <div class="div_menu">
         <ul class="menu">
-          <li class="item_menu"><a href="#" class="botao">Início</a></li>
+          <li class="item_menu"><a href="#">Início</a></li>
           <li class="item_menu">
-            <a href="#about-me" class="botao">Sobre mim</a>
+            <a href="#about-me">Sobre mim</a>
           </li>
           <li class="item_menu">
             <a class="btn-cta" href="#form" id="contrate_me">Me Contrate</a>
@@ -199,6 +199,71 @@
 
       <div class="separator"></div>
 
+      <section class="form-section" id="form">
+        <div class="div_menu">
+          <div class="div_title">
+            <h2 class="title">Tem um projeto? Vamos conversar!</h2>
+          </div>
+          <div class="form-container">
+            <form
+              class="formulario"
+              name="contactForm"
+              action="mailto:gameszaum@gmail.com"
+              method="POST"
+            >
+              <p class="nome field-container">
+                <span class="icon">
+                  <i class="far fa-user"></i>
+                </span>
+                <input
+                  name="userName"
+                  placeholder="Insira seu nome"
+                  class="name-field"
+                />
+              </p>
+              <p class="email field-container">
+                <span class="icon">
+                  <i class="far fa-envelope"></i>
+                </span>
+                <input
+                  type="email"
+                  name="emailAddress"
+                  placeholder="Insira seu email"
+                  class="email-field"
+                />
+              </p>
+              <p class="assunto field-container">
+                <span class="icon">
+                  <i class="fas fa-book-open"></i>
+                </span>
+                <input
+                  name="subject"
+                  placeholder="Insira o assunto"
+                  class="subject-field"
+                />
+              </p>
+              <p class="mensagem field-container">
+                <span class="icon">
+                  <i class="far fa-edit"></i>
+                </span>
+                <textarea
+                  name="body"
+                  placeholder="Fale sobre seu projeto"
+                  class="message-field"
+                ></textarea>
+              </p>
+              <p class="enviar">
+                <a href="#">
+                  <input type="submit" value="Enviar" class="btn-cta" />
+                </a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="separator"></div>
+
       <section class="feedback-section">
         <div class="div_menu">
           <div class="div_title">
@@ -240,5 +305,6 @@
       </section>
     </main>
     <script src="js/main.js" defer></script>
+    <script src="js/form.js" defer></script>
   </body>
 </html>
