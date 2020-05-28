@@ -6,6 +6,5 @@ Esta é a segunda versão do portfolio do joão vilaça (gameszaum)
 
 - Email
 
-* Criar um arquivo para manipular o formulario! (V)
-* Mandar um email após clicar no botão. (V)
-* Retirar o icone ao clicar no input / textarea (V)
+* Ao clicar no input, fazer o icone sumir
+* ao clicar fora do input, fazer o icone voltar
